@@ -1,0 +1,22 @@
+{
+  "name": "baseapi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "setup": "node build.mjs",
+    "build": "node build.mjs",
+    "check": "tsc --noEmit",
+    "start": "node server.ts"
+  },
+  "dependencies": {
+    "smol-toml": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

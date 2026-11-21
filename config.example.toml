@@ -1,0 +1,9 @@
+addr = ":9982"
+
+[domains]
+game_mon = "https://gamemonetize.com"
+game_dist = "https://catalog.api.gamedistribution.com"
+
+[auth]
+token = ""
+ips = []
